@@ -1,7 +1,7 @@
 # Building / Dependencies
 The sample library was built using VS2019 against the C++14 standard. Make sure redistributables are installed
 
-The calling program uses dodnet core 3.1
+The calling program uses dotnet core 3.1
 
 # Intro
 
