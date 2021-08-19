@@ -28,7 +28,7 @@ The devices can communicate with our code using Callbacks. One of the use cases 
 ```cs
 // Function call back, when key press or function trigger will call this callback
 void SetFunctionCallBack(int pid, FunctionCallBack callBack)
-// typedef void(*FunctionCallBack)(int pid, unsigned byte* info);   // PID, Information (size of 8)
+// typedef void(*FunctionCallBack)(int pid, byte* info);   // PID, Information (size of 8)
 ```
 
 Is the documentation of the function. Again the pid doesn't matter, the callback however does. A connection change is indicated by the info[0] being 0xE6 and info[4] greater than zero
