@@ -34,5 +34,5 @@ void SetFunctionCallBack(int pid, FunctionCallBack callBack)
 Is the documentation of the function. Again the pid doesn't matter, the callback however does. A connection change is indicated by the info[0] being 0xE6 and info[4] greater than zero
 
 1. [Task] Use the `SetFunctionCallBack` function to register a callback
-2. [Task] Print a message when a connection callback was read
+2. [Task] Print a message a callback was read that represents a connection change
 3. [Question] What unexpected behaviour can happen when passing the callback?
